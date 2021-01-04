@@ -1,0 +1,38 @@
+p.rouge {
+    color: red;
+}
+.code {
+   font-family: Courier; 
+}
+li {
+    background-color: yellow;
+}
+@font-face {
+    font-family: police;
+    src : url("../fonts/Christmas\ Bell\ -\ Personal\ Use.otf")
+}
+body {
+    margin : 0;
+    font-family: police;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -ms-linear-gradient(top right, red, blue);
+background: -moz-linear-gradient(top right, red, blue);
+background: -webkit-linear-gradient(top right, red, blue);
+}
+.gradient-vertical
+{
+width:400px;
+height: 200px;
+background: -ms-linear-gradient(top, red, blue);
+background: -moz-linear-gradient(top, red, blue);
+background: -webkit-linear-gradient(top, red, blue);
+}
+.gradient-horizontal {
+    width:400px;
+height: 200px;
+background: -ms-linear-gradient(bottom, red, blue);
+background: -moz-linear-gradient(bottom, red, blue);
+background: -webkit-linear-gradient(bottom, red, blue);
+
+}
